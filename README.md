@@ -7,7 +7,14 @@ X13-ARIMA-SEATS seasonal adjustment method.
 ## Installation
 
 To install this package, please follow the instructions on [how to install RCall](http://juliainterop.github.io/RCall.jl/stable/installation/).
-After properly installing RCall, you can add this package via pkg like any other. It might be necessary to set the environmental variable before the using command:
+After properly installing RCall, you can add this package via pkg:
+
+```julia
+Pkg.add("https://github.com/julianjohs/X13")
+```
+
+
+It might be necessary to set the environmental variable before the using command:
 
 ```julia
 ENV["R_HOME"] = "....directory of R home...."
