@@ -11,7 +11,7 @@ After properly installing RCall, you can add this package via pkg like any other
 
 ```julia
 ENV["R_HOME"] = "....directory of R home...."
-using(X13)
+using X13
 ```
 
 Note that this package has not been tested on Mac OS X or Linux. To use the package on these platforms, refer to the Readme of the x12 R package.
