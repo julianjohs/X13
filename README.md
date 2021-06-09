@@ -4,6 +4,9 @@ X13-ARIMA-SEATS seasonal decomposition
 This package wraps the R package [x12](https://github.com/statistikat/x12) via [RCall](https://github.com/JuliaInterop/RCall.jl), which provides the U.S. Census Bureau's
 X13-ARIMA-SEATS seasonal adjustment method. 
 
+Note that the x12 R package doesn't seem to be actively developed. There exist some native Julia solutions for similar problems in other packages: The [TSAnalysis](https://github.com/fipelle/TSAnalysis.jl) package provides ARIMA models as well as Kalman filter-based methods for trend-cycle decomposition. [Forecast.jl](https://github.com/viraltux/Forecast.jl) provides seasonal decomposition based on LOESS (Locally Estimated Scatterplot Smoothing).
+
+
 ## Installation
 
 To install this package, please follow the instructions on [how to install RCall](http://juliainterop.github.io/RCall.jl/stable/installation/).
